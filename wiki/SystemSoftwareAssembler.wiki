@@ -154,4 +154,42 @@ The `main:`, `.LFB2:`, `.LCFI0:`, `.LCFI1:`, and `.LFE2:` lines are called label
 
 The other lines, like `movl $0, %eax` and `ret`, are called instructions.
 
-Instructions can be further broken down into mnemonics (`movl` and `ret`) and arguments (`$0, %eax`).
+Instructions can be further broken down into mnemonics (such as `movl` and `ret`) and arguments (such `$0, %eax`).
+
+== Different processors ==
+
+Today (and for at least the past decade) the dominant processor architecture is the x86 architecture. This corresponds to a large number of actual processors, from the 8086 that's about my age to the Core 2 Quad I'm using right now. There are other unrelated families, as mentioned earlier. Until recently Apple desktops and laptops used the PowerPC family, and before that they used the 68000 family, and before that they used the 6800 family. iPods and iPhones and many other devices that need processors that don't consume much power tend to use the ARM family.
+
+=== CISC versus RISC ===
+
+The biggest difference between the dominant x86 family and the ARM family (which I'm going to concentrate on) is that the x86 processors are CISC and the ARM processors are RISC. A long time ago, people building processors thought that adding more complex instructions, that better matched the high-level languages, was the best way to achieve performance. These were the Complex Instruction Set Computers, and they had a lot of instructions, a lot of irregularity amongst those instructions, and some instructions that did some very complicated things.
+
+Other people came along and said, no, the way to achieve performance is to have simpler processors. Because these came later, these were the Reduced Instruction Set Computers, and they had fewer instructions, more regularity amongst their instructions, and most instructions were very simple.
+
+(Mention good architecture books.)
+
+For the most part, "CISC won", though, as in any case of "survival of the fittest", you shouldn't read too much into what their current dominance means. As for the RISC processors, the Xbox 360 uses the RISC PowerPC, and the RISC ARM thrives everywhere power consumption is important. One side-effect of being simple is that you can do more with less, and sometimes that's important.
+
+I'm going to focus on the ARM because I'm familiar with it, it's a realistic processor that's still in use, and it's simple. This simplicity means I can show you a realistic assembler, disassembler, and emulator for the ARM without taking up too much space and without getting too bogged down in trivial details. (I will reproduce a few of the ARM's uglier characteristics, though, for the sake of realism, and as a reminder that nothing's perfect.)
+
+(Come back to how higher-level code looks in assembler, or digress here?)
+
+== The ARM processor ==
+
+(Basics. Only ARMv2. Only user-mode stuff, but mention the missing bits.)
+
+== The tools ==
+
+(No good order to these. All three are interrelated and it helps to develop all three in parallel. But we have to show them in some order, so...)
+
+== A disassembler ==
+
+(Similarity to processor's decoding logic. Benefits of regularity and orthogonality and fixed-size instructions.)
+
+== An assembler ==
+
+
+
+== An emulator ==
+
+(Difference between emulator and simulator.)
