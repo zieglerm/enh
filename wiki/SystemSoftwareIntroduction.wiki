@@ -22,4 +22,10 @@ You have to stop somewhere. For my purposes, I'll stop at the programmer's model
 
 == Prerequisites ==
 
-If you can't program in any language, you need to learn one first. I'd recommend Java. Come back and have another go later. If you can't program in C++ or Java, you might need some other reference to help you understand all the code. For the most part, I'm only interested in talking about the higher-level techniques, not the specific syntax and library support.
+If you can't program in any language, you need to learn one first. I'd recommend Java. Come back and have another go later.
+
+If you don't know the basics of binary and hexadecimal arithmetic and logical operations, you need to learn them first. Come back and have another go later.
+
+If you can't program in C++ or Java, you might need some other reference to help you understand all the code. For the most part, I'm only interested in talking about the higher-level techniques, not the specific syntax and library support.
+
+If you don't know what assembly language is, you might find the stuff about assemblers, disassemblers, and emulators difficult until you do.
