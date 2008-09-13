@@ -45,12 +45,12 @@ Any benefit to using the [http://code.google.com/p/v8 v8] GC in jam? How about t
 
 Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/onebox.html) and Apple's Spotlight added calculator functionality, I've wanted something similar for the Linux desktop. There are several contenders, but they're typical Linux apps, favoring power over simplicity. Deskbar (http://www.gnome.org/projects/deskbar-applet/) seems like the least worst, but it's got a more complicated UI than I'd like, and requires extensions be written in Python.
   * As simple as onebox or Spotlight.
-  * But maybe take into account that I'm a power user, and let me specify a verb?
     * 123lbs, 5'4", 78F => 56kg, 1.62m, 26C (i.e. unit conversion, taking what people actually write, assuming the obvious target unit, and retaining the likely precision)
     * 2+3*4, sin(90) => 14, 1.0 (i.e. basic calculator)
+    * "15mins check oven", "21:30 take pill" => set timers (for stuff not worth adding to a calendar).
+  * But maybe take into account that I'm a power user, and let me specify a verb?
     * "a gears of war", "i lord of war", "w gears of war", "gears of war" => amazon, imdb, wikipedia, and google searches.
     * "m 2 read", "j String" => man -s 2 read, latest javadoc for String
-    * dictionary?
-    * leo.org translation?
-    * "15mins check oven", "21:30 take pill" => set timers (for stuff not worth adding to a calendar).
+    * dictionary/thesaurus? (plan 9 ones are good)
+    * leo.org translation? (what would be a convenient interface?)
   * some way to let people add their own stuff, without dictating an implementation language.
