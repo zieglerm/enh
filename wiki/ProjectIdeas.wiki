@@ -41,7 +41,7 @@ Obvious problems with this being that (a) I don't know much JavaScript and (b) d
 
 Any benefit to using the [http://code.google.com/p/v8 v8] GC in jam? How about the JIT? Jam starts up very fast, and is fast as interpreters go, but it's seriously slow compared to HotSpot/GCJ generated code.
 
-== simpler "deskbar" ==
+== Simpler "deskbar" ==
 
 Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/onebox.html) and Apple's Spotlight added calculator functionality, I've wanted something similar for the Linux desktop. There are several contenders, but they're typical Linux apps, favoring power over simplicity. Deskbar (http://www.gnome.org/projects/deskbar-applet/) seems like the least worst, but it's got a more complicated UI than I'd like, and requires extensions be written in Python.
   * As simple as onebox or Spotlight.
