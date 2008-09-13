@@ -1,5 +1,6 @@
 #summary System Software Table of Contents
 
-= Contents =
+= How System Software Works: Contents =
 
   * [SystemSoftwareIntroduction Introduction]
+  * [SystemSoftwareAssembler Assembler]
