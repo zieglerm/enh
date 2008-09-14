@@ -55,3 +55,9 @@ Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/on
     * leo.org translation? (what would be a convenient interface?)
   * Some way to let people add their own stuff, without dictating an implementation language.
   * I'd rather write the core in Java than anything else; use gconf-editor and /apps/metacity/keybinding_commands to get a global keyboard shortcut?
+
+== code.google.com wiki markup translators ==
+
+I've already got a Talc script to convert man pages to code.google.com wiki markup, but how about:
+  * Converting to/from LaTeX (for printing)?
+  * Converting to/from HTML (so this same markup can be used independently of code.google.com)?
