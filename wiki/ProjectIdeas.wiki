@@ -61,3 +61,13 @@ Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/on
 I've already got a Talc script to convert man pages to code.google.com wiki markup, but how about:
   * Converting to/from LaTeX (for printing)?
   * Converting to/from HTML (so this same markup can be used independently of code.google.com)?
+
+== Yet Another Test Framework ==
+
+Android comes with [http://code.google.com/android/reference/junit/framework/package-summary.html junit.framework] which seems to be a cut-down older version of JUnit. Things I don't like about JUnit:
+  * Can't just say "here's a .jar/directory, run all the tests you can find".
+  * The whole inbred "backwards equality tests" thing.
+  * Adding another .jar to salma-hayek.
+  * Keeping the tests in separate classes, let alone a separate source tree.
+
+It's not really worth writing yet another test framework, but it's sufficiently simple that it might not be any more work than getting JUnit usable.
