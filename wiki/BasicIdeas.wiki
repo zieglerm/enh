@@ -1,3 +1,11 @@
+== C BBC Basic ==
+
+A cross between C and BBC Basic.
+
+Really not sure about missing out parentheses around `if` and `while` expressions, though it doesn't seem so bad on `for`.
+
+Could probably get away with just string and double (and their arrays) to begin with. Just double if we're really just messing around. Not sure this could really go anywhere interesting anyway.
+
  * Types
   * Scalars:
    * `count%` - int32
