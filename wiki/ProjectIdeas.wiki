@@ -27,16 +27,6 @@ A reimplementation of Plan 9's 8.5 windows, in Java using PTextArea, looking lik
   * any problems surrounding job control?
   * Plan 9-like "noscroll mode" where the default assumption is that you want to read command output, not watch it fly past.
 
-== v8script ==
-
-Use [http://code.google.com/p/v8 v8] and add just enough library support to use JavaScript as a Unix command-line scripting language like Ruby.
-  * POSIX stuff.
-  * convenient file i/o.
-  * convenient subprocess handling.
-  * anything else? why hasn't JavaScript already been co-opted like this?
-
-Obvious problems with this being that (a) I don't know much JavaScript and (b) don't much like what I do know.
-
 == v8jam ==
 
 Any benefit to using the [http://code.google.com/p/v8 v8] GC in jam? How about the JIT? Jam starts up very fast, and is fast as interpreters go, but it's seriously slow compared to HotSpot/GCJ generated code.
