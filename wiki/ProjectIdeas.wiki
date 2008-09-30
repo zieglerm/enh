@@ -27,6 +27,13 @@ A reimplementation of Plan 9's 8.5 windows, in Java using PTextArea, looking lik
   * any problems surrounding job control?
   * Plan 9-like "noscroll mode" where the default assumption is that you want to read command output, not watch it fly past.
 
+== Hack on Maxine ==
+
+Sun's [https://maxine.dev.java.net/ maxine] JVM looks mildly interesting.
+  * Linux support?
+  * ARM support?
+  * see what else comes to mind if/when i can actually run it ;-)
+
 == v8jam ==
 
 Any benefit to using the [http://code.google.com/p/v8 v8] GC in jam? How about the JIT? Jam starts up very fast, and is fast as interpreters go, but it's seriously slow compared to HotSpot/GCJ generated code.
