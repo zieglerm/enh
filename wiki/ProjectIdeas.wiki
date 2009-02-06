@@ -53,6 +53,8 @@ Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/on
   * Some way to let people add their own stuff, without dictating an implementation language.
   * I'd rather write the core in Java than anything else; use gconf-editor and /apps/metacity/keybinding_commands to get a global keyboard shortcut?
 
+Microsoft's doing something sort-of similar (http://arstechnica.com/microsoft/news/2009/02/live-search-instant-answers-right-in-the-ie8-search-box.ars). And Google has a Mac-only Quick Search Bar (http://code.google.com/p/qsb-mac/).
+
 == code.google.com wiki markup translators ==
 
 I've already got a Talc script to convert man pages to code.google.com wiki markup, but how about:
