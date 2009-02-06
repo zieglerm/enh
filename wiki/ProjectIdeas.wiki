@@ -50,10 +50,16 @@ Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/on
     * "m 2 read", "j String" => man -s 2 read, latest javadoc for String
     * dictionary/thesaurus? (plan 9 ones are good)
     * leo.org translation? (what would be a convenient interface?)
+    * bug databases that i use? (my home projects, my work database, Sun's Java database...)
+    * contacts. (most useful somewhere with LDAP, since i don't keep my own address book.)
   * Some way to let people add their own stuff, without dictating an implementation language.
   * I'd rather write the core in Java than anything else; use gconf-editor and /apps/metacity/keybinding_commands to get a global keyboard shortcut?
 
 Microsoft's doing something sort-of similar (http://arstechnica.com/microsoft/news/2009/02/live-search-instant-answers-right-in-the-ie8-search-box.ars). And Google has a Mac-only Quick Search Bar (http://code.google.com/p/qsb-mac/).
+
+== A to-do app that doesn't suck? ==
+
+I've tried several to-do apps, plain text, wiki pages, bug databases, and paper, and I'm still not happy. Is "happy" possible? (The guy wrote wrote http://shawnblanc.net/2009/01/a-review-of-two-things/ seems happy.)
 
 == code.google.com wiki markup translators ==
 
