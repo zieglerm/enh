@@ -38,6 +38,13 @@ Sun's [https://maxine.dev.java.net/ maxine] JVM looks mildly interesting.
 
 Any benefit to using the [http://code.google.com/p/v8 v8] GC in jam? How about the JIT? Jam starts up very fast, and is fast as interpreters go, but it's seriously slow compared to HotSpot/GCJ generated code.
 
+== Android on Linux ==
+
+Might be interesting to be able to run Android stuff native on Linux. Either by porting the GUI stuff and sticking with DalvikVM, or porting the Android stuff to Sun's JVM/Java2D and so forth.
+
+How to build/run DalvikVM on Linux/x86:
+http://groups.google.com/group/android-porting/browse_thread/thread/ab553116dbc960da/db0e127f7f8db0da
+
 == Simpler "deskbar" ==
 
 Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/onebox.html) and Apple's Spotlight added calculator functionality, I've wanted something similar for the Linux desktop. There are several contenders, but they're typical Linux apps, favoring power over simplicity. Deskbar (http://www.gnome.org/projects/deskbar-applet/) seems like the least worst, but it's got a more complicated UI than I'd like, and requires extensions be written in Python.
