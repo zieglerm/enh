@@ -58,6 +58,7 @@ Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/on
     * dictionary/thesaurus? (plan 9 ones are good)
     * leo.org translation? (what would be a convenient interface?)
     * bug databases that i use? (my home projects, my work database, Sun's Java database...)
+    * track parcels via tracking numbers.
     * contacts. (most useful somewhere with LDAP, since i don't keep my own address book.)
   * Some way to let people add their own stuff, without dictating an implementation language.
   * I'd rather write the core in Java than anything else; use gconf-editor and /apps/metacity/keybinding_commands to get a global keyboard shortcut?
