@@ -35,6 +35,21 @@ I've already got a Talc script to convert man pages to code.google.com wiki mark
   * Converting to/from LaTeX (for printing)?
   * Converting to/from HTML (so this same markup can be used independently of code.google.com)?
 
+== Log viewer ==
+
+car wonders about hacking Terminator to be a log viewer. Apple has Console.app. GNOME has System Log Viewer. I tend to use "tail -F". Random ideas:
+  * Could cope with .gz logs (unlike GNOME).
+  * Could transparently stitch rotated logs together.
+  * Could divide into days (like GNOME, which even shows a calendar).
+  * Could filter (like Console.app).
+  * Usual "jessies" find.
+  * Could show as table (like Console.app in 10.5), or wrap (like XTerm), or scroll horizontally (like Terminator or GNOME).
+  * Vim does simple coloring of some log formats.
+  * Could gray out in each line every character (or run of a certain length?) that's the same as the previous line.
+  * Could toFront/flash on new output.
+  * Could offer setAlwaysOnTop.
+  * "tail -F"-like automatic following of rotated logs.
+
 == How (Software) Stuff Works ==
 
 A tour (with minimalist implementations) of the basic bits of software:
