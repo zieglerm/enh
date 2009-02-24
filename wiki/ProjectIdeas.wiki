@@ -4,6 +4,37 @@
 
 These are various project ideas I've had but haven't done much/any work on.
 
+== Simpler "deskbar" ==
+
+Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/onebox.html) and Apple's Spotlight added calculator functionality, I've wanted something similar for the Linux desktop. There are several contenders, but they're typical Linux apps, favoring power over simplicity. Deskbar (http://www.gnome.org/projects/deskbar-applet/) seems like the least worst, but it's got a more complicated UI than I'd like, and requires extensions be written in Python.
+  * As simple as onebox or Spotlight.
+    * 123lbs, 5'4", 78F => 56kg, 1.62m, 26C (i.e. unit conversion, taking what people actually write, assuming the obvious target unit, and retaining the likely precision)
+    * 2+3*4, sin(90) => 14, 1.0 (i.e. basic calculator)
+    * "15mins check oven", "21:30 take pill" => set timers (for stuff not worth adding to a calendar).
+    * track parcels via tracking numbers.
+    * contacts. (most useful somewhere with LDAP, since i don't keep my own address book.)
+  * But maybe take into account that I'm a power user, and let me specify a verb?
+    * "a gears of war", "i lord of war", "w gears of war", "gears of war" => amazon, imdb, wikipedia, and google searches.
+    * "m 2 read", "j String" => man -s 2 read, latest javadoc for String
+    * or Google-style "man:read(2)", "java:String", and so on. doesn't work well for things that are usually more than one word ("imdb:lord of war" would need extra quoting, for example, or maybe something like "imdb:" is a token in its own right that puts you in imdb mode for the rest of the tokens?).
+    * leo.org translation? (what would be a convenient interface?)
+    * dictionary/thesaurus? (plan 9 ones are good)
+    * bug databases that i use? (my home projects, my work database, Sun's Java database...)
+  * Some way to let people add their own stuff, without dictating an implementation language.
+  * I'd rather write the core in Java than anything else; use gconf-editor and /apps/metacity/keybinding_commands to get a global keyboard shortcut?
+
+Microsoft's doing something sort-of similar (http://arstechnica.com/microsoft/news/2009/02/live-search-instant-answers-right-in-the-ie8-search-box.ars). And Google has a Mac-only Quick Search Bar (http://code.google.com/p/qsb-mac/).
+
+== A to-do app that doesn't suck? ==
+
+I've tried several to-do apps, plain text, wiki pages, bug databases, and paper, and I'm still not happy. Is "happy" possible? (The guy wrote wrote http://shawnblanc.net/2009/01/a-review-of-two-things/ seems happy.)
+
+== code.google.com wiki markup translators ==
+
+I've already got a Talc script to convert man pages to code.google.com wiki markup, but how about:
+  * Converting to/from LaTeX (for printing)?
+  * Converting to/from HTML (so this same markup can be used independently of code.google.com)?
+
 == How (Software) Stuff Works ==
 
 A tour (with minimalist implementations) of the basic bits of software:
@@ -44,34 +75,3 @@ Might be interesting to be able to run Android stuff native on Linux. Either by 
 
 How to build/run DalvikVM on Linux/x86:
 http://groups.google.com/group/android-porting/browse_thread/thread/ab553116dbc960da/db0e127f7f8db0da
-
-== Simpler "deskbar" ==
-
-Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/onebox.html) and Apple's Spotlight added calculator functionality, I've wanted something similar for the Linux desktop. There are several contenders, but they're typical Linux apps, favoring power over simplicity. Deskbar (http://www.gnome.org/projects/deskbar-applet/) seems like the least worst, but it's got a more complicated UI than I'd like, and requires extensions be written in Python.
-  * As simple as onebox or Spotlight.
-    * 123lbs, 5'4", 78F => 56kg, 1.62m, 26C (i.e. unit conversion, taking what people actually write, assuming the obvious target unit, and retaining the likely precision)
-    * 2+3*4, sin(90) => 14, 1.0 (i.e. basic calculator)
-    * "15mins check oven", "21:30 take pill" => set timers (for stuff not worth adding to a calendar).
-    * track parcels via tracking numbers.
-    * contacts. (most useful somewhere with LDAP, since i don't keep my own address book.)
-  * But maybe take into account that I'm a power user, and let me specify a verb?
-    * "a gears of war", "i lord of war", "w gears of war", "gears of war" => amazon, imdb, wikipedia, and google searches.
-    * "m 2 read", "j String" => man -s 2 read, latest javadoc for String
-    * or Google-style "man:read(2)", "java:String", and so on. doesn't work well for things that are usually more than one word ("imdb:lord of war" would need extra quoting, for example, or maybe something like "imdb:" is a token in its own right that puts you in imdb mode for the rest of the tokens?).
-    * leo.org translation? (what would be a convenient interface?)
-    * dictionary/thesaurus? (plan 9 ones are good)
-    * bug databases that i use? (my home projects, my work database, Sun's Java database...)
-  * Some way to let people add their own stuff, without dictating an implementation language.
-  * I'd rather write the core in Java than anything else; use gconf-editor and /apps/metacity/keybinding_commands to get a global keyboard shortcut?
-
-Microsoft's doing something sort-of similar (http://arstechnica.com/microsoft/news/2009/02/live-search-instant-answers-right-in-the-ie8-search-box.ars). And Google has a Mac-only Quick Search Bar (http://code.google.com/p/qsb-mac/).
-
-== A to-do app that doesn't suck? ==
-
-I've tried several to-do apps, plain text, wiki pages, bug databases, and paper, and I'm still not happy. Is "happy" possible? (The guy wrote wrote http://shawnblanc.net/2009/01/a-review-of-two-things/ seems happy.)
-
-== code.google.com wiki markup translators ==
-
-I've already got a Talc script to convert man pages to code.google.com wiki markup, but how about:
-  * Converting to/from LaTeX (for printing)?
-  * Converting to/from HTML (so this same markup can be used independently of code.google.com)?
