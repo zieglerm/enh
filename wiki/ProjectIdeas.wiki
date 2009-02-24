@@ -67,7 +67,7 @@ Sun's [https://maxine.dev.java.net/ maxine] JVM looks mildly interesting.
 
 == v8jam ==
 
-Any benefit to using the [http://code.google.com/p/v8 v8] GC in jam? How about the JIT? Jam starts up very fast, and is fast as interpreters go, but it's seriously slow compared to HotSpot/GCJ generated code.
+Any benefit to using the [http://code.google.com/p/v8 v8] GC in jam? How about the JIT? Jam starts up very fast, and is fast as interpreters go, but it's seriously slow compared to !HotSpot/GCJ generated code.
 
 == Android on Linux ==
 
