@@ -59,18 +59,6 @@ A tour (with minimalist implementations) of the basic bits of software:
   * anything else interesting enough? (should be non-trivial yet practical.)
   * what implementation language? C++ or Java?
 
-== p9term ==
-
-A reimplementation of Plan 9's 8.5 windows, in Java using PTextArea, looking like it belongs in 2008 rather than 1988.
-  * commit prototype i have; it's useless but good-looking (should go far!).
-  * how best to deal with tab completion?
-  * command-line history?
-  * color's probably quite easy; some visual distinction for stderr?
-  * use control-c and so on for editing; esc for "interrupt".
-  * getting Bash to behave?
-  * any problems surrounding job control?
-  * Plan 9-like "noscroll mode" where the default assumption is that you want to read command output, not watch it fly past.
-
 == Hack on Maxine ==
 
 Sun's [https://maxine.dev.java.net/ maxine] JVM looks mildly interesting.
