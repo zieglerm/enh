@@ -11,9 +11,7 @@ In  {{{graveyard/mailer/}}}. From what was to have been the documentation:
 Mailer is compatible with IMAP incoming mail servers and SMTP outgoing mail servers.
 It replaces Outlook, Evolution, and Apple's Mail.app.
 
-===Features===
-
-<p>Mailer was designed as a no-nonsense mail client after too many years fighting over-clever, over-configurable mailers on various platforms. Almost every mailer has something it does really well, but every mailer has some fundamental problem (even if it's only the lack of spelling checking as you type, or being tied to one particular platform):
+Mailer was designed as a no-nonsense mail client after too many years fighting over-clever, over-configurable mailers on various platforms. Almost every mailer has something it does really well, but every mailer has some fundamental problem (even if it's only the lack of spelling checking as you type, or being tied to one particular platform):
 
   * *Available Everywhere* - Mailer runs on Linux, Mac OS, Solaris, and Windows. No more using a different mailer on every platform.
 
