@@ -1,3 +1,5 @@
+#summary Ideas relating to the BASIC language.
+
 (I don't think any of these ideas are particularly worthwhile. But if you're bored and looking for something to do...)
 
 == C BBC Basic ==
