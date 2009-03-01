@@ -74,7 +74,7 @@ for x = 20 to 0 step -4 {
 }
 
 // function
-fn strlen%(s$) {
+func strlen%(s$) {
  result% = 0;
  while s$ != "" {
   result% = result% + 1;
@@ -83,14 +83,14 @@ fn strlen%(s$) {
  return result%;
 }
 
-fn abs%(i%) {
+func abs%(i%) {
  if i% < 0 {
   i% = -i%;
  }
  return i%;
 }
 
-fn abs(n) {
+func abs(n) {
  if n < 0 {
   n = -n;
  }
