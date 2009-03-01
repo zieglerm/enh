@@ -37,7 +37,7 @@ I've already got a Talc script to convert man pages to code.google.com wiki mark
 
 == Log viewer ==
 
-car wonders about hacking Terminator to be a log viewer. Apple has Console.app. GNOME has System Log Viewer. I tend to use "tail -F". Random ideas:
+Chris Reece wondered about hacking [http://software.jessies.org/terminator/ Terminator] to be a log viewer. Apple has Console.app. GNOME has System Log Viewer. I tend to use "tail -F" in Terminator. Random ideas:
   * Could cope with .gz logs (unlike GNOME).
   * Could transparently stitch rotated logs together.
   * Could divide into days (like GNOME, which even shows a calendar).
