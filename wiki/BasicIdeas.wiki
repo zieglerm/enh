@@ -16,10 +16,10 @@ Could probably get away with just string and double (and their arrays) to begin 
    * `done?` - bool
    * Maybe a byte type too, mainly so we can have byte arrays?
   * Vectors:
-   * `counts%()` - vector<int32>
-   * `names$()` - vector<string>
-   * `averages()` - vector<double>
-   * `dones?()` - vector<bool>
+   * `counts%()` - vector`<`int32`>`
+   * `names$()` - vector`<`string`>`
+   * `averages()` - vector`<`double`>`
+   * `dones?()` - vector`<`bool`>`
 
  * Literals
   * Numeric:
@@ -110,6 +110,6 @@ if strlen%(name$) > 4 {
 
 }}}
 
-== ParaBasic/MetaBasic ==
+== !ParaBasic/!MetaBasic ==
 
 An interpreter/compiler supporting everything traditional Basics did, but with a either a selection of front-ends or a parameterizable front-end, so you can run whatever kind of Basic program you happen to have. Something for those people who keep old software; let them unite around a single system rather than keep reinventing most of it. How practical is this? Would it get bogged down in bug-compatibility? Would it be better to have a translator from old dialects into One True (Clean) Dialect? (Quite possibly, though that might not be acceptable to the kind of person who might use this. And if you were going to translate, why not to a modern language?)
