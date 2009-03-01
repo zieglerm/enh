@@ -1,5 +1,7 @@
 #summary Ideas that I haven't done much/any work on.
 
+(If you decide to implement any of these ideas yourself, or if you think you've already written something that's a pretty good fit, please send me a link. I'd like nothing more than to not have to write and maintain these myself!)
+
 == Simpler "deskbar" ==
 
 Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/onebox.html) and Apple's Spotlight added calculator functionality, I've wanted something similar for the Linux desktop. There are several contenders, but they're typical Linux apps, favoring power over simplicity. Deskbar (http://www.gnome.org/projects/deskbar-applet/) seems like the least worst, but it's got a more complicated UI than I'd like, and requires extensions be written in Python.
