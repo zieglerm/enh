@@ -57,7 +57,7 @@ car wonders about hacking Terminator to be a log viewer. Apple has Console.app. 
 A tour (with minimalist implementations) of the basic bits of software:
   * ARM emulator (to give an overview of how a nice processor works).
   * ARM assembler/disassembler.
-  * BASIC interpreter (or compiler, or both?).
+  * BASIC interpreter (or compiler, or both?). (See also BasicIdeas.)
   * higher-level VM?
   * a Unix shell?
   * anything else interesting enough? (should be non-trivial yet practical.)
