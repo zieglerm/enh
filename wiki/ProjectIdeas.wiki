@@ -1,8 +1,4 @@
-#summary Ideas that haven't even gotten to the "mkdir" stage
-
-= Project ideas =
-
-These are various project ideas I've had but haven't done much/any work on.
+#summary Ideas that I haven't done much/any work on.
 
 == Simpler "deskbar" ==
 
