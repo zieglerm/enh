@@ -31,9 +31,9 @@ I've tried several to-do apps, plain text, wiki pages, bug databases, and paper,
 
 == code.google.com wiki markup translators ==
 
-I've already got a Talc script to convert man pages to code.google.com wiki markup, but how about:
+I've already got a Talc script to convert man pages to code.google.com wiki markup, and [http://code.google.com/p/blog-baboon/ blog-baboon] uses a subset of the same markup, but how about:
   * Converting to/from LaTeX (for printing)?
-  * Converting to/from HTML (so this same markup can be used independently of code.google.com)?
+  * Converting to/from HTML (so this same markup can be used independently of code.google.com)? (See [http://code.google.com/p/blog-baboon/ blog-baboon] for a subset.)
 
 == Log viewer ==
 
