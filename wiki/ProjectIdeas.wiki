@@ -7,7 +7,7 @@ These are various project ideas I've had but haven't done much/any work on.
 == Simpler "deskbar" ==
 
 Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/onebox.html) and Apple's Spotlight added calculator functionality, I've wanted something similar for the Linux desktop. There are several contenders, but they're typical Linux apps, favoring power over simplicity. Deskbar (http://www.gnome.org/projects/deskbar-applet/) seems like the least worst, but it's got a more complicated UI than I'd like, and requires extensions be written in Python.
-  * As simple as onebox or Spotlight.
+  * As simple as (or simpler than!) onebox or Spotlight.
     * 123lbs, 5'4", 78F => 56kg, 1.62m, 26C (i.e. unit conversion, taking what people actually write, assuming the obvious target unit, and retaining the likely precision)
     * 2+3*4, sin(90) => 14, 1.0 (i.e. basic calculator)
     * "15mins check oven", "21:30 take pill" => set timers (for stuff not worth adding to a calendar).
