@@ -1,3 +1,5 @@
+(I don't think any of these ideas are particularly worthwhile. But if you're bored and looking for something to do...)
+
 == C BBC Basic ==
 
 A cross between C and BBC Basic.
@@ -107,3 +109,7 @@ if strlen%(name$) > 4 {
 }
 
 }}}
+
+== ParaBasic/MetaBasic ==
+
+An interpreter/compiler supporting everything traditional Basics did, but with a either a selection of front-ends or a parameterizable front-end, so you can run whatever kind of Basic program you happen to have. Something for those people who keep old software; let them unite around a single system rather than keep reinventing most of it. How practical is this? Would it get bogged down in bug-compatibility? Would it be better to have a translator from old dialects into One True (Clean) Dialect? (Quite possibly, though that might not be acceptable to the kind of person who might use this. And if you were going to translate, why not to a modern language?)
