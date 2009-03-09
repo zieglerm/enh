@@ -25,6 +25,16 @@ Microsoft's doing something sort-of similar (http://arstechnica.com/microsoft/ne
 
 See also Google's [http://www.google.com/support/websearch/bin/answer.py?answer=134479 Basic Search Help], [http://www.google.com/support/websearch/bin/answer.py?answer=136861 More Search Help], and [http://www.google.com/intl/en/help/features.html Search Extras].
 
+== A better UI for building/testing ==
+
+Break the UI for building/testing out of the IDE. It shouldn't be specific to any given IDE (and should even work for command-line Emacs/Vim users), nor specific to any given build/test tool. Who cares if you're using GNU Make or Ant or whatever. The principles rarely differ much (though some may offer richer output than others). Recognize progress indications and show them as such. Recognize errors and warnings and color them, collect them, and link them back to editors (okay, I'll be honest; I only really care about using Evergreen as my editor, so I'm not much deterred if it's not possible/convenient to link back to other editors).
+
+Auto-complete targets for those build tools that offer target query interfaces. History of recently-built targets/other options. Preset "debug" and "release" option sets. Acme/Oberon-like way to trivially (and textually) make your own buttons corresponding to particular build/test run "configurations" (the combination of options and targets).
+
+Some RPC mechanism so that an IDE's built-in "build" and "test" functions can call out to rerun the last build/test configuration, rather than forcing the user to hunt out the window and press the right button.
+
+Here's the [http://gbracha.blogspot.com/2009/02/newspeak-prototype-escapes-into-wild.html Newspeak test results UI], which doesn't look particularly convincing, but is at least colorful.
+
 == A to-do app that doesn't suck? ==
 
 I've tried several to-do apps, plain text, wiki pages, bug databases, and paper, and I'm still not happy. Is "happy" possible? (The guy wrote wrote http://shawnblanc.net/2009/01/a-review-of-two-things/ seems happy.)
