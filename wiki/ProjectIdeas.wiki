@@ -59,6 +59,7 @@ Chris Reece wondered about hacking [http://software.jessies.org/terminator/ Term
   * Could toFront/flash on new output.
   * Could offer setAlwaysOnTop.
   * "tail -F"-like automatic following of rotated logs.
+  * If process _pid_ dies, automatically show me log _path_. Perhaps handier for developers than sys admins, but meant for anyone who's expecting a daemon to die and wants its death brought to their attention (and knows the first thing they'll do is look at the [crash] log).
 
 == System monitor ==
 
