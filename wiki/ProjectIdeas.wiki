@@ -60,6 +60,67 @@ Chris Reece wondered about hacking [http://software.jessies.org/terminator/ Term
   * Could offer setAlwaysOnTop.
   * "tail -F"-like automatic following of rotated logs.
 
+== System monitor ==
+
+I love things like Apple's "Activity Monitor", GNOME's "System Monitor", and whatever the sysinternals' guy's thing for Windows is called, but none of them is really perfect.
+
+Basic info:
+  * icon (how?), name, pid, status, % CPU, "memory" (which one/s?), user (?)
+    * tty is useful for distinguishing bash(1) instances.
+    * arguments are often useful; include them (truncated) in name, and rely on tool tips, or show them as part of a process' detailed info?
+    * GNOME System Monitor has "X Server Memory" which sounds interesting.
+
+On a process:
+  * show open file descriptors: number, type, details
+    * file & filename
+    * pipe & process (by matching the magic number in the other process' fds)
+    * network socket and endpoint (magic numbers mapped somewhere in /proc/net)
+  * show environment variables
+  * show cwd and root
+  * show memory map
+  * send signal (at least stop, continue, and kill)
+  * show parent name and pid; clickable.
+  * strace(1), ltrace(1).
+    * "strace -C" is often instructive enough.
+    * important to be able to stop tracing quickly and easily.
+    * could use strace(1) to monitor an application's pipe/network communication.
+  * turn GNU profiling stuff on/off in a binary with symbols to offer something like Apple's sample(1).
+
+On a process' binary:
+  * strings(1), nm(1), ldd(1).
+
+On a Java process:
+  * jstack(1), jmap(1), jinfo(1).
+  * injection of arbitrary agents into Java 6 processes.
+    * default set of agents to replace our current "Debug" menu.
+    * plus stuff like tracing and profiling that's hard to do in-process.
+    * watching the AWT event queue would often be interesting.
+
+Main table options:
+  * show all/active/mine.
+  * indentation showing process hierarchy.
+  * sortable columns (should be true of all tables in the application).
+  * search for processes with a particular file open or socket endpoint.
+
+Per-process detail windows:
+  * also update, but have "pause"?
+  * don't disappear if/when process exits (but clearly say "Terminated").
+
+top(1)-like overall info:
+  * % user, system, nice, idle?
+  * thread/process/runnable counts?
+  * memory, disk usage, disk activity, network activity?
+
+Update frequency/period:
+  * integer text field, or "very often (0.5 s)", "often (1 s)", "normal (2 s)", "less often (5 s)" like Activity Monitor?
+  * or always update the tray icon but have a play/pause button in the main window? lets you watch stuff as it changes, but then stop things jumping about when you actually decide you've found something you want to look at. (can't, of course, ensure that all the processes frozen on the display are still there or in their interesting state when you ask further questions about them!)
+
+Tray icon:
+  * image shows CPU usage graph.
+  * tool tip shows name and pid of process using most CPU.
+  * click opens main window.
+  * GNOME's tool's network and disk (i/o rather than space) monitors are useful, and the memory monitor's somewhat useful (though not useful enough to be worth as much horizontal space as the others).
+
 == How (Software) Stuff Works ==
 
 A tour (with minimalist implementations) of the basic bits of software:
