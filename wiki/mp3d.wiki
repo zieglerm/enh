@@ -8,9 +8,6 @@ FIXME: add at least a Linux download so people don't have to build from source.
 
 == Stuff To Do ==
 
-  * Merge "currently playing" into the "queued music" table, but render it slightly differently. At the moment, it's a bit confusing.
-  * Add icon to move to next track in queue. (Or just use the regular '-' icon?)
-
   * Show how far through currently playing track we are. (XMLHttpRequest?)
   * Keep "currently playing track" updated. (XMLHttpRequest?)
 
