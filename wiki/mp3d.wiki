@@ -1,0 +1,24 @@
+= mp3d =
+
+mp3d is a .mp3 jukebox. It provides a web interface to your .mp3 collection, allowing you to search and queue tracks to be played. The tracks are played on the computer running mp3d. They are _not_ streamed to the computer you're running your web browser (many existing programs will do this if that's what you want). The assumption is that you have a computer that has better speakers than the others, and that you'd like to hear your music coming out of that computer, but might actually be sat on the other side of the room with only a laptop or phone to hand.
+
+FIXME: add a screenshot.
+
+FIXME: add at least a Linux download so people don't have to build from source.
+
+== Stuff To Do ==
+
+  * Merge "currently playing" into the "queued music" table, but render it slightly differently. At the moment, it's a bit confusing.
+  * Add icon to move to next track in queue. (Or just use the regular '-' icon?)
+
+  * Show how far through currently playing track we are. (XMLHttpRequest?)
+  * Keep "currently playing track" updated. (XMLHttpRequest?)
+
+  * Add play/pause icon.
+  * Add "clear queue" icon/button.
+  * Add rescan (preferably automatic).
+
+  * Improve German searching by normalizing umlauts to "ue" etc. (See http://www.allegro-c.de/papiere/umlaute.htm.)
+  * Improve French/Italian searching by stripping accents.
+
+  * Feedback via the web interface while starting up, in case you have a huge collection.
