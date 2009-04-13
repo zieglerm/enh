@@ -21,4 +21,6 @@ FIXME: add at least a Linux download so people don't have to build from source.
   * Improve German searching by normalizing umlauts to "ue" etc. (See http://www.allegro-c.de/papiere/umlaute.htm.)
   * Improve French/Italian searching by stripping accents.
 
+  * Editing of id3v2 tags? Maybe as a separate desktop application to avoid security problems.
+
   * Feedback via the web interface while starting up, in case you have a huge collection.
