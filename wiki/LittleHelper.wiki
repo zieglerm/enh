@@ -1,0 +1,23 @@
+== LitteHelper ==
+
+Ever since Google started with "onebox" (http://www.google.com/enterprise/gsa/onebox.html) and Apple's Spotlight added calculator functionality, I've wanted something similar for the Linux desktop. There are several contenders, but they're typical Linux apps, favoring power over simplicity. Deskbar (http://www.gnome.org/projects/deskbar-applet/) seems like the least worst, but it's got a more complicated UI than I'd like, and requires extensions be written in Python.
+  * As simple as (or simpler than!) onebox or Spotlight.
+    * 123lbs, 5'4", 78F => 56kg, 1.62m, 26C (i.e. unit conversion, taking what people actually write, assuming the obvious target unit, and retaining the likely precision)
+    * 2+3*4, sin(90) => 14, 1.0 (i.e. basic calculator)
+    * "15mins check oven", "21:30 take pill" => set timers (for stuff not worth adding to a calendar).
+    * track parcels via tracking numbers.
+    * installed applications. (annoyingly, Ubuntu has .desktop files for applications you haven't installed!)
+    * contacts. (most useful somewhere with LDAP, since i don't keep my own address book.)
+  * But maybe take into account that I'm a power user, and let me specify a verb?
+    * "a gears of war", "i lord of war", "w gears of war", "gears of war" => amazon, imdb, wikipedia, and google searches.
+    * "m 2 read", "j String" => man -s 2 read, latest javadoc for String
+    * or Google-style "man:read(2)", "java:String", and so on. doesn't work well for things that are usually more than one word ("imdb:lord of war" would need extra quoting, for example, or maybe something like "imdb:" is a token in its own right that puts you in imdb mode for the rest of the tokens?).
+    * leo.org translation? (what would be a convenient interface?)
+    * dictionary/thesaurus? (plan 9 ones are good)
+    * bug databases that i use? (my home projects, my work database, Sun's Java database...)
+  * Some way to let people add their own stuff, without dictating an implementation language.
+  * I'd rather write the core in Java than anything else; use gconf-editor and /apps/metacity/keybinding_commands to get a global keyboard shortcut? What about Mac OS and Windows?
+
+Microsoft's doing something sort-of similar (http://arstechnica.com/microsoft/news/2009/02/live-search-instant-answers-right-in-the-ie8-search-box.ars). And Google has a Mac-only Quick Search Bar (http://code.google.com/p/qsb-mac/).
+
+See also Google's [http://www.google.com/support/websearch/bin/answer.py?answer=134479 Basic Search Help], [http://www.google.com/support/websearch/bin/answer.py?answer=136861 More Search Help], and [http://www.google.com/intl/en/help/features.html Search Extras].
