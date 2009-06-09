@@ -1,4 +1,4 @@
-== Little Helper ==
+#summary Yet another front-end to your computer
 
 Little Helper is yet another application for quickly answering questions. Goals:
 
