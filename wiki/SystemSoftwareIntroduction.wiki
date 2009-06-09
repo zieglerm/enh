@@ -1,4 +1,5 @@
 #summary How System Software Works: Introduction
+#labels Deprecated
 
 = How System Software Works: Introduction =
 
