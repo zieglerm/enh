@@ -1,4 +1,4 @@
-= mp3d =
+#summary A web interface to your .mp3 collection
 
 mp3d is for you if you have multiple computers but only one that has decent speakers. With mp3d running on that computer, the music comes out of the decent speaker no matter where the UI happens to be.
 
