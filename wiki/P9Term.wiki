@@ -14,3 +14,5 @@ If you want to play with it in its current state, I recommend:
   stty -echo
 }}}
 I haven't done much work on this in some time. I think it's a good idea, despite the problems mentioned above (which mean it's unlikely to ever suit everyone, but that doesn't mean it wouldn't have its niche), but I don't actually use the shell any more than I have to these days, and [http://software.jessies.org/terminator/ Terminator] is pretty good.
+
+See also [http://swtch.com/plan9port/man/man1/9term.html 9term].
