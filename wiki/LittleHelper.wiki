@@ -24,6 +24,7 @@ Simply say what you've got (123lbs, 5'4", 78F) and it will be automatically conv
 == Stuff To Do ==
 
   * "15mins check oven", "21:30 take pill" => set timers (for stuff not worth adding to a calendar).
+  * currency conversions. see http://www.ecb.int/stats/exchange/eurofxref/html/index.en.html for data.
   * track parcels via tracking numbers.
   * installed applications. (annoyingly, Ubuntu has .desktop files for applications you haven't installed!)
   * contacts. (most useful somewhere with LDAP, since i don't keep my own address book.)
