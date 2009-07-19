@@ -16,6 +16,8 @@ Here's the [http://gbracha.blogspot.com/2009/02/newspeak-prototype-escapes-into-
 
 I've tried several to-do apps, plain text, wiki pages, bug databases, and paper, and I'm still not happy. Is "happy" possible? (The guy wrote wrote http://shawnblanc.net/2009/01/a-review-of-two-things/ seems happy.)
 
+Alternatively, one could just use a "notes" app. http://daringfireball.net/2009/07/simplenote is a review of one.
+
 == code.google.com wiki markup translators ==
 
 I've already got a Talc script to convert man pages to code.google.com wiki markup, and [http://code.google.com/p/blog-baboon/ blog-baboon] uses a subset of the same markup, but how about:
