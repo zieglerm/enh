@@ -17,7 +17,7 @@ See also Google's [http://www.google.com/support/websearch/bin/answer.py?answer=
 
 There's a simple calculator that supports:
 
-  * Basic artihmetical operators (+, -, `*`, /).
+  * Basic arithmetical operators (+, -, `*`, /).
   * Exponentiation ({{{^}}}).
   * Remainder (%).
   * Factorial (postfix !).
