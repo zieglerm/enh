@@ -1,0 +1,7 @@
+Mathdroid is a calculator for Android. If you just want to use it, you can find it in the Market on your phone. It's a free download.
+
+There's help built in to the application, so if you came here for more help, please file a bug telling me what you need to know more about.
+
+If you came here to file a bug or suggest an improvement, click on the "Issues" tab above. If you're shy, or just wanted to give me feedback, feel free to use the "Mail author" facility in the Market on your phone.
+
+If you came here for the source code (as promised in the on-line help), click on the "Source" tab above.
