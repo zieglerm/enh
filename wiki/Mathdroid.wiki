@@ -1,7 +1,7 @@
 #summary A calculator for Android.
 
 ====How do I get Mathdroid?==
-If you just want to use Mathdroid, you can find it in the Market on your phone. Search for "Mathdroid", or follow this direct link if you're reading this on your phone: [market://search/?q=pname:org.jessies.mathdroid Mathdroid].
+If you just want to use Mathdroid, you can find it in the Market on your phone. Search for "Mathdroid".
 
 It's a free download.
 
@@ -11,7 +11,6 @@ It should be obvious when you run it. If not, there's built-in help. If you need
 ====How do I report a bug/provide general feedback?==
 Click on the "Issues" tab above and then click on "New issue". Or follow this direct link: [http://code.google.com/p/enh/issues/entry report a bug].
 
-====How do I report general feedback?==
 If you want to give me feedback that you don't think counts as an "issue", feel free to use the "Mail author" facility in the Market on your phone instead.
 
 ====Where's the source code?==
