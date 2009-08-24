@@ -1,5 +1,4 @@
-====What is Mathdroid?==
-Mathdroid is a calculator for Android.
+#summary A calculator for Android.
 
 ====How do I get Mathdroid?==
 If you just want to use Mathdroid, you can find it in the Market on your phone. Search for "Mathdroid", or follow this direct link if you're reading this on your phone: [market://search/?q=pname:org.jessies.mathdroid Mathdroid].
