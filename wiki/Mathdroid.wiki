@@ -16,7 +16,7 @@ If you want to give me feedback that you don't think counts as an "issue", feel 
 ====Where's the source code?==
 If you came here for the source code (as promised in the on-line help), click on the "Source" tab above.
 
-====Release Notes==
+====What changed between versions?==
 
 || *Version* || *Details* ||
 || 1.2 || Added long-press menu to copy all/last item from history. ||
