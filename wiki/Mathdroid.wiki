@@ -1,11 +1,26 @@
+====What is Mathdroid?==
 Mathdroid is a calculator for Android.
 
-If you just want to use Mathdroid, you can find it in the Market on your phone. Search for "Mathdroid". It's a free download.
+====How do I get Mathdroid?==
+If you just want to use Mathdroid, you can find it in the Market on your phone. Search for "Mathdroid", or follow this direct link if you're reading this on your phone: [market://search/?q=pname:org.jessies.mathdroid Mathdroid].
 
-There's built-in help, so if you came here for more help, please file a bug telling me what you need to know more about.
+It's a free download.
 
-If you came here to file a bug or suggest an improvement, click on the "Issues" tab above.
+====How do I use Mathdroid once I've got it?==
+It should be obvious when you run it. If not, there's built-in help. If you need more help, please tell me what you need to know more about.
 
-If you're shy, or just wanted to give me feedback that you don't think counts as an "issue", feel free to use the "Mail author" facility in the Market on your phone instead.
+====How do I report a bug/provide general feedback?==
+Click on the "Issues" tab above and then click on "New issue". Or follow this direct link: [http://code.google.com/p/enh/issues/entry report a bug].
 
+====How do I report general feedback?==
+If you want to give me feedback that you don't think counts as an "issue", feel free to use the "Mail author" facility in the Market on your phone instead.
+
+====Where's the source code?==
 If you came here for the source code (as promised in the on-line help), click on the "Source" tab above.
+
+====Release Notes==
+
+|| *Version* || *Details* ||
+|| 1.2 || Added long-press menu to copy all/last item from history. ||
+|| 1.1 || More attractive output format. ||
+|| 1.0 || Initial release. ||
