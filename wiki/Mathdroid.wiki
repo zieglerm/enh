@@ -19,7 +19,7 @@ If you came here for the source code (as promised in the on-line help), click on
 ====What changed between versions?==
 
 || *Version* || *Details* ||
-|| 1.3 || Fixed ")" button to advance caret. Faster internal implementation (in preparation for plotting). Booleans. Many new functions. ||
+|| 1.3 || Fixed ")" button to advance caret. Booleans. Many new functions. Better documentation. Faster internals (in preparation for plotting). ||
 || 1.2 || Added long-press menu to copy all/last item from history. ||
 || 1.1 || More attractive output format. ||
 || 1.0 || Initial release. ||
