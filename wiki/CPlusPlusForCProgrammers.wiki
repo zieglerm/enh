@@ -1,0 +1,32 @@
+#summary A gentle introduction.
+
+=C++ for C Programmers [DRAFT]=
+FIXME: motivate by explaining how C++ can be seen (and used) as a "better C than C".
+FIXME: explain (easy), (medium), and (hard).
+
+==Rename .c to .cpp (easy)==
+To take advantage of C++ features, you'll need to use the C++ compiler. The easiest way to do this is to use the {{{.cpp}}} extension instead of {{{.c}}}. Some people use {{{.cc}}} or {{{.cxx}}} but {{{.cpp}}} is the most widely-used.
+
+Note that you can't tell from a {{{.h}}} file's extension whether it's a C or C++ header file. Some people use {{{.hpp}}} to make this explicit. If you're able, the easiest is to just decree that all {{{.h}}} files are C++. (See later for the details of mixing C and C++.)
+
+==// comments (easy)==
+You're probably already using C++'s {{{//}}} comments, which comment to end of line. They've been in C since C99, and were available as a non-standard extension in many compilers long before then. Use whatever you like:
+{{{
+// Single-line C++ comment.
+
+/* Multi-line block
+ * comment.
+ */
+
+// Multi-line C++
+// comment.
+
+/* Single-line block comment. */
+}}}
+(Both styles of multi-line comment are popular, but it's rare to see a C-style single-line block comment, just because it requires more keyboarding.)
+
+==Minimal-scope locals (easy)==
+
+==Mixing C and C++ (easy)==
+FIXME: extern "C".
+FIXME: #ifdef
