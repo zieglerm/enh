@@ -7,7 +7,7 @@ FIXME: explain (easy), (medium), and (hard).
 ----
 
 ==Rename .c to .cpp (easy)==
-To take advantage of C++ features, you'll need to use the C++ compiler. The easiest way to do this is to use the {{{.cpp}}} extension instead of {{{.c}}}. Some people use {{{.cc}}} or {{{.cxx}}} but {{{.cpp}}} is the most widely-used.
+To take advantage of C++ features, you'll need to use the C++ compiler. The easiest way to do this is to use the {{{.cpp}}} extension instead of {{{.c}}}. Some people use {{{.cc}}} or {{{.cxx}}} instead, but {{{.cpp}}} is the most widely-used.
 
 Note that you can't tell from a {{{.h}}} file's extension whether it's a C or C++ header file. Some people use {{{.hpp}}} to make this explicit. If you're able, the easiest is to just decree that all {{{.h}}} files are C++. (See later for the details of mixing C and C++.)
 
@@ -61,6 +61,12 @@ For compatibility with old code, in C, this meant "I'm not telling you anything 
 ----
 
 ==Minimal-scope locals (easy)==
+FIXME: more intention-revealing.
+FIXME: leads to more secure code (don't declare until you can assign an initial value, go out of scope as soon as you're finished).
+FIXME: easier to detect unused locals.
+FIXME: easier to break one big function into multiple smaller functions.
+FIXME: harder to mix up two locals.
+FIXME: for C++ objects, lets you control where/how many times the constructor/destructor get called.
 
 ----
 
