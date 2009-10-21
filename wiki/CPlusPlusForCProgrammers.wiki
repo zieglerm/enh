@@ -76,7 +76,11 @@ FIXME: #ifdef
 
 ----
 
-=={{{new}}} instead of {{{malloc}}}==
+=={{{const}}} (medium)==
+
+----
+
+=={{{new}}} instead of {{{malloc}}} (easy)==
 FIXME: no more {{{n*sizeof(T)}}}.
 FIXME: no more {{{(T*)}}}.
 FIXME: new and delete, new[] and delete[].
