@@ -19,7 +19,7 @@ If you came here for the source code (as promised in the on-line help), click on
 ====What changed between versions?==
 
 || *Version* || *Details* ||
-|| 1.8 || Operator precedence fixes. More synonyms for trig functions. Support 1e3 as well as 1E3. Add IntegerLength. Make constants/functions/variables case-insensitive. Disallow assignment to Ans. ||
+|| 1.8 || Operator precedence fixes. More synonyms for trig functions. Support 1e3 as well as 1E3. Add IntegerLength. Make constants/functions/variables case-insensitive. Disallow assignment to Ans. More keypad keys, on-screen cursor keys. ||
 || 1.7 || Fixes help and improves keyboard behavior for portrait on small screens (both 1.6 regressions). ||
 || 1.6 || Improved high-dpi appearance. Improved keyboard behavior for landscape. Zipaligned. ||
 || 1.5 || Fixed loadState after working out that the startup bug was in the undocumented plotting functionality. ||
