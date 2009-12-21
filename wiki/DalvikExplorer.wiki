@@ -1,0 +1,21 @@
+#summary A debugging tool for Android.
+
+====How do I get Dalvik Explorer?==
+If you just want to use Dalvik Explorer, you can find it in the Market on your phone. Search for "Dalvik Explorer".
+
+It's a free download.
+
+====How do I report a bug/provide general feedback?==
+Click on the "Issues" tab above and then click on "New issue". Or follow this direct link: [http://code.google.com/p/enh/issues/entry report a bug].
+
+If you want to give me feedback that you don't think counts as an "issue", feel free to use the "Mail author" facility in the Market on your phone instead.
+
+====Where's the source code?==
+If you came here for the source code (as promised in the on-line help), click on the "Source" tab above.
+
+====What changed between versions?==
+
+|| *Version* || *Details* ||
+|| 1.2 || More detailed information on charsets and locales. ||
+|| 1.1 || Split the output into sections. ||
+|| 1.0 || Initial release. One big text view. ||
