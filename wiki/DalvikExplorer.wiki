@@ -16,6 +16,6 @@ If you came here for the source code (as promised in the on-line help), click on
 ====What changed between versions?==
 
 || *Version* || *Details* ||
-|| 1.2 || More detailed information on charsets and locales. ||
+|| 1.2 || More detailed information on charsets, locales, and time zones. ||
 || 1.1 || Split the output into sections. ||
 || 1.0 || Initial release. One big text view. ||
