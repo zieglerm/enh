@@ -1,0 +1,19 @@
+#summary Adds events from .ics files to Android's calendar.
+
+====How do I get Ics Bot?==
+If you just want to use Ics Bot, you can find it in the Market on your phone. Search for "Ics Bot".
+
+It's a free download.
+
+====How do I report a bug/provide general feedback?==
+Click on the "Issues" tab above and then click on "New issue". Or follow this direct link: [http://code.google.com/p/enh/issues/entry report a bug].
+
+If you want to give me feedback that you don't think counts as an "issue", feel free to use the "Mail author" facility in the Market on your phone instead.
+
+====Where's the source code?==
+If you came here for the source code, click on the "Source" tab above and follow the instructions.
+
+====What changed between versions?==
+
+|| *Version* || *Details* ||
+|| 1.0 || Initial release. ||
