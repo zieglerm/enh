@@ -16,5 +16,5 @@ If you came here for the source code, click on the "Source" tab above and follow
 ====What changed between versions?==
 
 || *Version* || *Details* ||
-|| 1.1 || Fix multi-line text. ||
+|| 1.1 || Fix multi-line summaries/descriptions. Accept ".ics" extension regardless of MIME type. Basic VTIMEZONE handling (for Exchange/Lotus Notes). ||
 || 1.0 || Initial release. ||
