@@ -13,6 +13,18 @@ If you want to give me feedback that you don't think counts as an "issue", feel 
 ====Where's the source code?==
 If you came here for the source code, click on the "Source" tab above and follow the instructions.
 
+====Future Enhancements===
+
+All text views should be copyable/mailable.
+
+All list views should be substring searchable (as opposed to prefix-searchable, as they currently are).
+
+The file system viewer should show information equivalent to "ls -l". Also MIME type.
+
+The file system viewer should be able to (optionally) send round an intent for viewing/editing a file.
+
+Add a character viewer? So you'd type 202a or whatever and get to see U+202a, plus maybe the result of all the methods in Character applied to that code point?
+
 ====What changed between versions?==
 
 || *Version* || *Details* ||
