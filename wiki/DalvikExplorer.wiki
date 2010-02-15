@@ -28,6 +28,7 @@ Add a character viewer? So you'd type 202a or whatever and get to see U+202a, pl
 ====What changed between versions?==
 
 || *Version* || *Details* ||
+|| 1.7 || All text views copyable & mailable. ||
 || 1.6 || Filterable lists. VM heap size in device info. ||
 || 1.5 || Fix build/device info for pre-Android 1.6 devices. ||
 || 1.4 || Build/device info, file system browser, options menu (mail report, help). ||
