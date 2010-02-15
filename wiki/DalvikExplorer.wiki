@@ -15,20 +15,16 @@ If you came here for the source code, click on the "Source" tab above and follow
 
 ====Future Enhancements===
 
-All text views should be copyable/mailable.
-
 All list views should be substring searchable (as opposed to prefix-searchable, as they currently are).
 
-The file system viewer should show information equivalent to "ls -l". Also MIME type.
-
-The file system viewer should be able to (optionally) send round an intent for viewing/editing a file.
+The file system viewer should show information equivalent to "ls -l". Also MIME type. Also menu option to send ACTION_VIEW intent before viewing as text in built-in FileViewerActivity. (Maybe automatic, based on guessed MIME type?)
 
 Add a character viewer? So you'd type 202a or whatever and get to see U+202a, plus maybe the result of all the methods in Character applied to that code point?
 
 ====What changed between versions?==
 
 || *Version* || *Details* ||
-|| 1.7 || All text views copyable & mailable. ||
+|| 1.7 || All text views copyable & mailable. File system browser can now send ACTION_VIEW intents. ||
 || 1.6 || Filterable lists. VM heap size in device info. ||
 || 1.5 || Fix build/device info for pre-Android 1.6 devices. ||
 || 1.4 || Build/device info, file system browser, options menu (mail report, help). ||
