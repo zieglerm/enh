@@ -13,10 +13,16 @@ If you want to give me feedback that you don't think counts as an "issue", feel 
 ====Where's the source code?==
 If you came here for the source code, click on the "Source" tab above and follow the instructions.
 
+====Stuff To Do====
+  * If the user has more than one calendar, let them choose which one we use.
+  * If the .ics file contains multiple events, offer an "Add All" option.
+  * Recurring events.
+  * Reminders.
+
 ====What changed between versions?==
 
 || *Version* || *Details* ||
-|| 1.3 || Froyo support. ||
+|| 1.3 || Better VTIMEZONE handling. Froyo support. ||
 || 1.2 || Cope with > 4KiB .ics files. ||
 || 1.1 || Fix multi-line summaries/descriptions. Accept ".ics" extension regardless of MIME type. Basic VTIMEZONE handling (for Exchange/Lotus Notes). ||
 || 1.0 || Initial release. ||
