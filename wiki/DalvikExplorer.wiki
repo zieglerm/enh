@@ -1,7 +1,7 @@
 #summary A debugging tool for Android.
 
 ====How do I get Dalvik Explorer?==
-If you just want to use Dalvik Explorer, you can find it in the Market on your phone. Search for "Dalvik Explorer" ([market://details?id=org.jessies.dalvikexplorer direct link]).
+If you just want to use Dalvik Explorer, you can find it in the Market on your phone. Search for "Dalvik Explorer" (<a href="market://details?id=org.jessies.dalvikexplorer">direct link</a>).
 
 It's a free download. Old versions (and the current version if you don't have Market access) are [http://code.google.com/p/enh/downloads/list available here].
 
