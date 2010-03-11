@@ -3,7 +3,7 @@
 ====How do I get Ics Bot?==
 If you just want to use Ics Bot, you can find it in the Market on your phone. Search for "Ics Bot".
 
-It's a free download.
+It's a free download. Old versions (and the current version if you don't have Market access) are [http://code.google.com/p/enh/downloads/list available here].
 
 ====How do I report a bug/provide general feedback?==
 Click on the "Issues" tab above and then click on "New issue". Or follow this direct link: [http://code.google.com/p/enh/issues/entry report a bug].
