@@ -3,7 +3,7 @@
 ====How do I get Mathdroid?==
 If you just want to use Mathdroid, you can find it in the Market on your phone. Search for "Mathdroid".
 
-It's a free download.
+It's a free download. Old versions (and the current version if you don't have Market access) are [http://code.google.com/p/enh/downloads/list available here].
 
 ====How do I use Mathdroid once I've got it?==
 Hopefully that's obvious when you run it. If not, there's built-in help. If you need more help, please tell me what you need to know more about.
