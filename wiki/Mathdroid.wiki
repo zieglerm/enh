@@ -19,6 +19,7 @@ If you came here for the source code (as promised in the on-line help), click on
 ====What changed between versions?==
 
 || *Version* || *Details* ||
+|| 2.1 || Better soft keyboard behavior. ||
 || 2.0 || Matrices. ||
 || 1.9 || Fix bug with "del" (issue 5). ||
 || 1.8 || Operator precedence fixes. More synonyms for trig functions. Support 1e3 as well as 1E3. Add IntegerLength. Make constants/functions/variables case-insensitive. Disallow assignment to Ans. More keypad keys, on-screen cursor keys. ||
