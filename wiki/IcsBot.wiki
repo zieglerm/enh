@@ -14,7 +14,6 @@ If you want to give me feedback that you don't think counts as an "issue", feel 
 If you came here for the source code, click on the "Source" tab above and follow the instructions.
 
 ====Stuff To Do====
-  * If the user has more than one calendar, let them choose which one we use.
   * If the .ics file contains multiple events, offer an "Add All" option.
   * Recurring events.
   * Reminders.
