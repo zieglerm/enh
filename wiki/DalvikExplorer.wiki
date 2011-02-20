@@ -24,7 +24,7 @@ Add a character viewer? So you'd type 202a or whatever and get to see U+202a, pl
 ====What changed between versions?==
 
 || *Version* || *Details* ||
-|| 2.1 || Show tzdata version. ||
+|| 2.1 || Show tzdata version. Describe the display in Build/Device Details. ||
 || 2.0 || Show Runtime.availableProcessors() in Build/Device Details. ||
 || 1.9 || Fix the shortcut to the default locale. Better support for large screens. ||
 || 1.8 || Use a two-level locale hierarchy, grouping locales by language. ||
