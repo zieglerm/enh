@@ -21,10 +21,14 @@ The file system viewer should show information equivalent to "ls -l". Also MIME 
 
 Add a character viewer? So you'd type 202a or whatever and get to see U+202a, plus maybe the result of all the methods in Character applied to that code point?
 
+Don't even try to view files that are > 1/2 our heap size? hexdump view?
+
+Write summary to sd card rather than trying to mail (since the summary is so large, mail tends to choke)?
+
 ====What changed between versions?==
 
 || *Version* || *Details* ||
-|| 2.1 || Show tzdata version. Describe the display in Build/Device Details. Show locale display names in the locale itself as well as the device's default locale. Substring rather than prefix searching in lists. ||
+|| 2.1 || Show tzdata version. Describe the display in Build/Device Details. Show locale display names in the locale itself as well as the device's default locale. Substring rather than prefix filtering in lists. ||
 || 2.0 || Show Runtime.availableProcessors() in Build/Device Details. ||
 || 1.9 || Fix the shortcut to the default locale. Better support for large screens. ||
 || 1.8 || Use a two-level locale hierarchy, grouping locales by language. ||
