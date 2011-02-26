@@ -19,6 +19,7 @@ If you came here for the source code (as promised in the on-line help), click on
 ====What changed between versions?==
 
 || *Version* || *Details* ||
+|| 2.5 || Basic tablet support. Workaround for Android framework bug leading to force closes on rotation. ||
 || 2.4 || Continuation mode. More options on the history context menu. nCr, nPr. ||
 || 2.3 || Haptic feedback setting. ||
 || 2.2 || Angle mode setting for degrees/radians. Boole, Filter, Total. ||
