@@ -15,8 +15,6 @@ If you came here for the source code, click on the "Source" tab above and follow
 
 ====Future Enhancements===
 
-All list views should be substring searchable (as opposed to prefix-searchable, as they currently are).
-
 The file system viewer should show information equivalent to "ls -l". Also MIME type. Also menu option to send ACTION_VIEW intent before viewing as text in built-in FileViewerActivity. (Maybe automatic, based on guessed MIME type?)
 
 Add a character viewer? So you'd type 202a or whatever and get to see U+202a, plus maybe the result of all the methods in Character applied to that code point?
