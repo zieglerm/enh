@@ -28,6 +28,7 @@ Write summary to sd card rather than trying to mail (since the summary is so lar
 ====What changed between versions?==
 
 || *Version* || *Details* ||
+|| 2.2 || Better Honeycomb support. More obvious search in text views/filtering in lists. Also show display names for locales in lists. ||
 || 2.1 || Show tzdata version. Describe the display in Build/Device Details. Show locale display names in the locale itself as well as the device's default locale. Substring rather than prefix filtering in lists. ||
 || 2.0 || Show Runtime.availableProcessors() in Build/Device Details. ||
 || 1.9 || Fix the shortcut to the default locale. Better support for large screens. ||
