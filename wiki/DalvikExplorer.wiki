@@ -26,6 +26,7 @@ Write summary to sd card rather than trying to mail (since the summary is so lar
 ====What changed between versions?==
 
 || *Version* || *Details* ||
+|| 2.6 || Fixed core count on old builds. ||
 || 2.5 || More build/device details, GoogleTV support. ||
 || 2.4 || More time zone information, track system default time zone changes while running. ||
 || 2.3 || Include charset aliases, and summarize time zone information. ||
