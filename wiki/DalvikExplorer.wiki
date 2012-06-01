@@ -23,6 +23,12 @@ Don't even try to view files that are > 1/2 our heap size? hexdump view?
 
 Write summary to sd card rather than trying to mail (since the summary is so large, mail tends to choke)?
 
+Built-in benchmarks?
+
+Network interfaces?
+
+Crypto stuff?
+
 ====What changed between versions?==
 
 || *Version* || *Details* ||
