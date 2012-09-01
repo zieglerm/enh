@@ -32,6 +32,7 @@ Crypto stuff?
 ====What changed between versions?==
 
 || *Version* || *Details* ||
+|| 2.8 || Maps links from time zones. MIPS support. ||
 || 2.7 || Fixed core count on all builds. Split build and device details, and added more processor details to the latter. ||
 || 2.6 || Fixed core count on old builds. ||
 || 2.5 || More build/device details, GoogleTV support. ||
