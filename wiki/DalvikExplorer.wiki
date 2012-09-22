@@ -32,6 +32,7 @@ Crypto stuff?
 ====What changed between versions?==
 
 || *Version* || *Details* ||
+|| 3.0 || CPU frequencies. Fix processor identification on x86. ||
 || 2.9 || More locale data post-Gingerbread. /proc/meminfo summary in Device Details. Mount point details. ||
 || 2.8 || Maps links from time zones. MIPS support. Currency details. ||
 || 2.7 || Fixed core count on all builds. Split build and device details, and added more processor details to the latter. ||
