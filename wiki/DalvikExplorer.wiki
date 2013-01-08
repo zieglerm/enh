@@ -32,6 +32,7 @@ Crypto stuff?
 ====What changed between versions?==
 
 || *Version* || *Details* ||
+|| 3.4 || Get exact screen resolutions (on Android releases with a system bar). ||
 || 3.3 || Work around a Currency.getInstance bug. Really fix file system info pre-Gingerbread. ||
 || 3.2 || Decode Qualcomm part numbers. Save/restore list filter and scroll position. Clearer output for time zones that have never had a transition. ||
 || 3.1 || Only show stand-alone days/months where they differ. Fix CPU frequency units. Fix file system info pre-Gingerbread. ||
