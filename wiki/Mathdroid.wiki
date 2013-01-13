@@ -19,6 +19,7 @@ If you came here for the source code (as promised in the on-line help), click on
 ====What changed between versions?==
 
 || *Version* || *Details* ||
+|| 2.8 || Fix text entry on tablets. Clearer error messages. Choice of output base. Thousands separators in large integers. ||
 || 2.7 || Don't hide the action bar post-Gingerbread. Better error reporting. ||
 || 2.6 || Decimal arithmetic to avoid "rounding errors". Fixed cursor/selection post-Gingerbread (issue 34). ||
 || 2.5 || Basic tablet support. Workaround for Android framework bug leading to force closes on rotation. ||
