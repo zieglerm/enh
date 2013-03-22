@@ -32,6 +32,7 @@ Crypto stuff?
 ====What changed between versions?==
 
 || *Version* || *Details* ||
+|| 3.6 || Make widget text fit better. Added version number to title. ||
 || 3.5 || Added build widget. Started using HTML formatting. Show timeFormat12 and timeFormat24 in LocaleData. ||
 || 3.4 || Get exact screen resolutions (on Android releases with a system bar). ||
 || 3.3 || Work around a Currency.getInstance bug. Really fix file system info pre-Gingerbread. ||
