@@ -19,7 +19,7 @@ If you came here for the source code (as promised in the on-line help), click on
 ====What changed between versions?==
 
 || *Version* || *Details* ||
-|| 2.9 || Improved on-line help. ||
+|| 2.9 || Improved on-line help. New 7" and 10" layouts. Slightly improved accessibility. ||
 || 2.8 || Fix text entry on tablets. Clearer error messages. Choice of output base. Thousands separators in large integers. ||
 || 2.7 || Don't hide the action bar post-Gingerbread. Better error reporting. ||
 || 2.6 || Decimal arithmetic to avoid "rounding errors". Fixed cursor/selection post-Gingerbread (issue 34). ||
